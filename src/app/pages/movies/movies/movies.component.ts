@@ -76,7 +76,7 @@ export class MoviesComponent implements OnInit {
 
   toggleSortDirection(): void {
     this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
-    this.sortMovies(); // A rendezés irányának megváltoztatása után újra rendezzük a filmeket
+    this.sortMovies(); 
   }
   
 }
